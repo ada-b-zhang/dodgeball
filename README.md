@@ -17,37 +17,37 @@ This project was created in collaboration with Ben Cohan. It utilizes gamebox, a
 * Collect food items to regain health (max 3 HP).
 * Survive as long as possible!
 
-# Features 🚀
+## Features 🚀
 
-## Required Features
+### Required Features
 
-### User Input:
+#### User Input:
 * Left (←) - Move left
 * Right (→) - Move right
 * Spacebar - Start the game
 * D - Throw a dodgeball
 
-### Game Over Condition:
+#### Game Over Condition:
 * Player loses 1 HP when hit by a dodgeball.
 * Game ends when HP reaches 0.
 
-### Screen & Graphics:
+#### Screen & Graphics:
 * Game window: 800x600
 * Character and dodgeballs use gamebox shapes and animations.
 
-## Optional Features
+### Optional Features
 
-### Health System:
+#### Health System:
 * Start with 3 HP.
 * Lose HP when hit; game ends at 0 HP.
 * Gain HP by hitting food items with a dodgeball.
 
-### Dynamic Gameplay:
+#### Dynamic Gameplay:
 * Dodgeballs increase in speed at higher levels.
 * More enemies spawn as the game progresses.
 * Enemies also throw balls at the player.
 
-### Sprite Animation:
+#### Sprite Animation:
 * Dodgeballs have randomized colors.
 * Food items cycle between different sprites.
 
@@ -59,7 +59,7 @@ Make sure you have Python installed, then install pygame and gamebox:
 pip install pygame gamebox
 ```
 
-### Run the Game 2️
+### Run the Game 
 ```
 python game.py
 ```
