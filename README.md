@@ -4,7 +4,7 @@ A fast-paced, arcade-style dodgeball game built using Python and gamebox. Player
 
 ## Collaboration 👥
 
-This project was created in collaboration with Ben Cohan. It utilizes gamebox, an original work by Luther Tychonievich.
+This project was created in collaboration with Ben Cohen. It utilizes gamebox, an original work by Luther Tychonievich.
 
 ## Game Overview 🎮
 
