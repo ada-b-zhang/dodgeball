@@ -2,72 +2,118 @@
 
 A fast-paced, arcade-style dodgeball game built using Python and gamebox. Players must dodge incoming balls while eliminating opponents by throwing dodgeballs back. The game increases in difficulty with each level.
 
-## Collaboration 👥
+## 🎮 Game Overview
 
-This project was created in collaboration with Ben Cohen. It utilizes gamebox, an original work by Luther Tychonievich.
+**Objective:** Avoid getting hit while eliminating all opponents and progress through increasingly difficult levels.
 
-## Game Overview 🎮
-
-**Objective:** Avoid getting hit while eliminating all opponents. Progress through levels as difficulty increases.
-
-**Game Mechanics:**
-
-* Move left/right to dodge incoming balls.
-* Throw dodgeballs to eliminate opponents.
-* Collect food items to regain health (max 3 HP).
+### Game Mechanics:
+* Move left/right to dodge incoming balls
+* Throw dodgeballs to eliminate opponents
+* Collect food items to regain health (max 3 HP)
 * Survive as long as possible!
 
-## Features 🚀
+## 🚀 Features
 
-### Required Features
+### Core Features
+* User-controlled character movement
+* Dynamic difficulty progression
+* Health system with collectible power-ups
+* Colorful dodgeballs and animated food items
+* Multiple levels with increasing challenge
 
-#### User Input:
-* Left (←) - Move left
-* Right (→) - Move right
-* Spacebar - Start the game
-* D - Throw a dodgeball
+### Technical Highlights
+* Built with Python and Flask
+* HTML5 Canvas for game rendering
+* Real-time gameplay mechanics
+* Sprite animation system
+* Responsive web design
 
-#### Game Over Condition:
-* Player loses 1 HP when hit by a dodgeball.
-* Game ends when HP reaches 0.
-
-#### Screen & Graphics:
-* Game window: 800x600
-* Character and dodgeballs use gamebox shapes and animations.
-
-### Optional Features
-
-#### Health System:
-* Start with 3 HP.
-* Lose HP when hit; game ends at 0 HP.
-* Gain HP by hitting food items with a dodgeball.
-
-#### Dynamic Gameplay:
-* Dodgeballs increase in speed at higher levels.
-* More enemies spawn as the game progresses.
-* Enemies also throw balls at the player.
-
-#### Sprite Animation:
-* Dodgeballs have randomized colors.
-* Food items cycle between different sprites.
-
-## Installation & Setup 🛠 
-
-### Install Dependencies
-Make sure you have Python installed, then install pygame and gamebox:
+## 🛠️ Project Structure
 ```
-pip install pygame gamebox
+your-project-folder/
+├── app.py                 # Flask application setup
+├── main.py               # Entry point
+├── README.md             # Project documentation
+├── pyproject.toml        # Python dependencies
+├── attached_assets/      # Game assets and engine
+│   ├── gamebox.py       # Game engine library
+│   ├── game.py          # Core game logic
+│   ├── food-drink-00.png # Food sprite sheet
+│   └── README.md        # Game documentation
+└── static/              # Static assets
+    ├── js/
+    │   └── game.js      # Client-side game logic
+    └── css/
+        └── style.css    # Game styling
 ```
 
-### Run the Game 
-```
-python game.py
+## 📋 Prerequisites
+- Python 3.11 or higher
+- pip (Python package installer)
+- Modern web browser with HTML5 support
+
+## 🔧 Installation & Setup
+
+1. **Clone the Repository**
+```bash
+git clone [your-repository-url]
+cd [repository-name]
 ```
 
-## How to Play 🕹️ 
-* Move using left (←) and right (→) arrow keys.
-* Press D to throw a dodgeball at your enemies.
-* Dodge incoming dodgeballs from enemies.
-* Collect food items (hit them with a dodgeball) to restore HP.
-* Survive as long as possible and clear levels by eliminating all enemies.
+2. **Install Dependencies**
+```bash
+pip install flask pygame
+```
 
+3. **Run the Game**
+```bash
+python main.py
+```
+
+4. **Access the Game**
+Open your web browser and navigate to:
+```
+http://localhost:8080
+```
+
+## 🎯 How to Play
+
+### Controls
+* Left Arrow (←) - Move left
+* Right Arrow (→) - Move right
+* D key - Throw dodgeballs
+* Spacebar - Start game
+
+### Gameplay Tips
+* Dodge incoming balls from enemies
+* Collect food items to restore HP (max 3)
+* Clear levels by eliminating all enemies
+* Watch out for increasing difficulty in higher levels
+
+## ⚠️ Troubleshooting
+
+### Port Issues on macOS
+If you encounter a "Port 5000 in use" error:
+1. The game now uses port 8080 by default
+2. If needed, you can modify the port in `main.py`
+3. On macOS, port 5000 is often used by AirPlay Receiver
+
+### Common Issues
+1. Missing Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+2. Game Not Loading
+- Clear browser cache
+- Verify Python version (3.11+)
+- Check console for error messages
+
+## 👥 Credits and Collaboration
+- This project was created in collaboration with Ben Cohen. It utilizes gamebox, an original work by Luther Tychonievich.
+- Game Engine: gamebox by Luther Tychonievich
+- Food Sprites: OpenMoji
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
