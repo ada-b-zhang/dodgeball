@@ -1,5 +1,7 @@
-# Dodgeball Game 🎯
+# Dodgeball Game
 A fast-paced, arcade-style dodgeball game built using Python and gamebox. Players must dodge incoming balls while eliminating opponents by throwing dodgeballs back. The game increases in difficulty with each level.
+
+[Click here to play!](https://79e78c7d-8131-42f6-8aa6-6976e2044d57-00-3i2vwx32mp4bx.picard.replit.dev:8080/)
 
 ## How to Play 🎮
 ### Controls
