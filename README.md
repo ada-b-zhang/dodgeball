@@ -1,8 +1,6 @@
 # Dodgeball Game
 A fast-paced, arcade-style dodgeball game built using Python and gamebox. Players must dodge incoming balls while eliminating opponents by throwing dodgeballs back. The game increases in difficulty with each level.
 
-[Click here to play!](https://79e78c7d-8131-42f6-8aa6-6976e2044d57-00-3i2vwx32mp4bx.picard.replit.dev:8080/)
-
 ## How to Play 🎮
 ### Controls
 * Left Arrow (←) - Move left
@@ -56,8 +54,8 @@ your-project-folder/
 ## Installation & Setup 🔧 
 1. **Clone the Repository**
 ```bash
-git clone [your-repository-url]
-cd [repository-name]
+git clone https://github.com/ada-b-zhang/dodgeball.git
+cd dodgeball
 ```
 2. **Install Dependencies**
 ```bash
@@ -75,20 +73,10 @@ http://localhost:8080
 ```
 
 ## Troubleshooting ⚠️ 
-### Port Issues on macOS
-If you encounter a "Port 5000 in use" error:
+If you encounter a "Port XXXX in use" error:
 1. The game now uses port 8080 by default
 2. If needed, you can modify the port in `main.py`
 3. On macOS, port 5000 is often used by AirPlay Receiver
-### Common Issues
-1. Missing Dependencies
-```bash
-pip install -r requirements.txt
-```
-2. Game Not Loading
-* Clear browser cache
-* Verify Python version (3.11+)
-* Check console for error messages
   
 ## Credits and Collaboration 👥 
 * This project was created in collaboration with Ben Cohen
